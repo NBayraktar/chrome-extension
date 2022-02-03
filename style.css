@@ -25,6 +25,25 @@ nav {
   width: 100%;
 }
 
+section {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  margin-top: 30px;
+  padding-left: 0;
+}
+
+li {
+  line-height: 30px;
+}
+
+a {
+  color: #5f9341;
+  font-size: 23px;
+}
+
 button {
   background-color: #5f9341;
   font-size: 21px;
@@ -37,8 +56,8 @@ button {
 }
 
 button:hover {
-  background-color: rgba(95, 147, 65, 0.8);
-  color: #444;
+  background-color: rgba(95, 147, 65, 0.4);
+  color: #333;
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
@@ -50,4 +69,5 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-width: 400px;
 }
