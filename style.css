@@ -20,9 +20,9 @@ input {
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  gap: 2px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
   margin-top: 5px;
   width: 100%;
 }
@@ -48,8 +48,8 @@ a {
 
 button {
   background-color: #5f9341;
-  font-size: 20px;
-  padding: 8px 30px;
+  font-size: 15px;
+  padding: 8px 18px;
   border: 1px solid #5f9341;
   outline: none;
   color: #fff;
@@ -82,8 +82,4 @@ button:hover {
 #delete-btn:hover {
   background-color: #5f9341;
   color: #fff;
-}
-
-#tab-btn {
-  padding: 0 40px;
 }
